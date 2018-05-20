@@ -1,0 +1,84 @@
+$primary: rgba(69, 107, 42, 0.8773);
+$primary_alt: rgba(87, 136, 64, 0.933);
+$secondary: rgba(230, 242, 255, 1);
+$white: rgba(255, 255, 255, 1);
+$font-family: 'Montserrat', sans-serif;
+
+* {
+	font-family: $font-family;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-weight: 300;  
+	color: $secondary;
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+}
+
+html {
+	font-family: $font-family;
+	font-weight: 300;
+	font-size: 24px;
+	color: $secondary;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background: -webkit-linear-gradient(bottom left, $primary_alt , $primary);
+	background: -o-linear-gradient(bottom left, $primary_alt , $primary);
+	background: linear-gradient(to top right, $primary_alt , $primary);
+}
+
+body, div, h1, h2, h3, h4, h5, h6, p {
+	font-weight: 300;
+	font-size: 0.88em;
+}
+
+button {
+	border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+	background: transparent;
+	color: inherit;
+    font: inherit;
+	line-height: normal;
+	-webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+	-webkit-appearance: none;
+}
+
+.interface {
+	display: block;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+}
+
+.interface--quarter--outer{
+	position: absolute;
+	width: 50%;
+	height: 50%;
+} 
+
+.top--left {
+	top: 0;
+	left: 0;
+}
+
+.top--right {
+	top: 0;
+	left: 50%;
+}
+
+.bot--left {
+	top: 50%;
+	left: 0;
+}
+
+.bot--right {
+	top: 50%;
+	left: 50%;
+}
