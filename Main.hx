@@ -13,7 +13,7 @@ class Main {
 	var lumen:Array<String> = ['./zircleUI', 'https://github.com/zircleUI/zircleUI.git'];
 	var aeque:Array<String> = ['', 'ssh://git@github.com'];
 
-	yliy = act_0(lumen[0], lumen[1], yliy, q4ant);
+	// yliy = act_0(lumen[0], lumen[1], yliy, q4ant);
   	var kyno = '';
   	var chron = gitcoal(quant, kyno);
   	var strua = gitcoal(q2ant, kyno);
