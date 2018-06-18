@@ -22,10 +22,8 @@
 			 </div>
 		</div>
 		<div class="interface--quarter--outer bot--right">
-			<div class="interface--quarter--body">
-				 <p>
-					{{ Field004 }}
-				</p>
+			<div class="interface--quarter--body" id="term"">
+				 
 			</div>
 		</div>
 	</div>
