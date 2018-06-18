@@ -93,11 +93,10 @@ class Main {
 
 					meteo = clientele('git', command_2);
 					meteo = clientele('git', command_m4a);
-					meteo = clientele('git', command_m3);
 				};
 						  	
-
 					meteo = clientele('git', command_m3);
+
 					meteo = clientele('git', command_4);
 			  		return meteo;
 			}
